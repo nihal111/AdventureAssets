@@ -1,0 +1,31 @@
+{
+  "Network": {
+  },
+  "location": {},
+  "RigidBody": {
+    "mass": 250,
+    "friction": 0.1,
+    "collisionGroup": "engine:world",
+    "collidesWith": [
+      "engine:world",
+      "engine:debris",
+      "engine:character",
+      "engine:default"
+    ]
+  },
+  "BoxShape": {
+    "extents": [2, 1, 2]
+  },
+  "Mesh": {
+    "mesh": "engine:cube",
+    "material": "engine:default"
+  },
+  "Platform" : {},
+  "Health": {
+    "currentHealth": 100,
+    "maxHealth": 100,
+    "regenRate": 1,
+    "waitBeforeRegen": 2,
+    "destroyEntityOnNoHealth": true
+  }
+}
